@@ -50,12 +50,6 @@ const RuyaFlute = () => {
           </Button>
           <br />
           <br />
-          <p><u>Show your support! </u></p>
-          <ul>
-            <li>Venmo: ruyaflute</li>
-            <li>PayPal: paypal.me/ruyaflute</li>
-            <li>Zelle: juliac1741@gmail.com</li>
-          </ul>
         </Jumbotron>
       </div>
 
