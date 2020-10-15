@@ -9,26 +9,13 @@ import Journey from "./screens/Journey";
 import Blog from "./screens/Blog";
 import Healthcare from "./screens/Healthcare";
 
+import CustomLayout from './containers/Layout';
+import BlogList from './containers/BlogListView';
+
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/workwithme">
-          <Withme />
-        </Route>
-        <Route path="/Journey">
-          <Journey />
-        </Route>
-        <Route path="/Blog">
-          <Blog />
-        </Route>
-        <Route path="/Healthcare">
-          <Healthcare />
-        </Route>
-      </Switch>
+      <BlogList />
     </Router>
   );
 }
