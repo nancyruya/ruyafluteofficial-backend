@@ -23,6 +23,7 @@ class BlogList extends React.Component {
         blogs: []
     }
 
+    //Promise
     componentDidMount() {
         axios.get('http://127.0.0.1:8000/api/')
             .then(res => {
@@ -36,7 +37,7 @@ class BlogList extends React.Component {
 
     render() {
         return (
-            <Blogs data={listData} />
+            <Blogs data={this.state.blogs} />
         )
     }
 }
