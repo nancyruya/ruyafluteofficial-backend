@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 
 import Blogs from '../components/Blog';
 
@@ -16,6 +17,23 @@ for (let i = 0; i < 23; i++) {
 }
 
 class BlogList extends React.Component {
+
+    //stores the blogs that comes from API to here
+    state = {
+        blogs: []
+    }
+
+    componentDidMount() {
+        axios.get('http://127.0.0.1:8000/api/')
+            .then(res => {
+                this.setState({
+                    blogs: res.data
+                });
+                console.log(res.data);
+            })
+    }
+
+
     render() {
         return (
             <Blogs data={listData} />
