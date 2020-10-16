@@ -1,7 +1,9 @@
 import React from "react";
 import { Fragment } from "react";
 import Navigationbar from "../components/Navigationbar";
-import Footerbar from "../components/Footerbar"
+import Footerbar from "../components/Footerbar";
+
+import BlogList from '../containers/BlogListView';
 
 function Blog() {
   return (
@@ -12,7 +14,7 @@ function Blog() {
       <br/>
       <br/>
       <br/>
-      <h1> Blog page...Learning Django... To be continued...</h1>
+      <BlogList/>
       <br/>   
       <Footerbar />
     </Fragment>
