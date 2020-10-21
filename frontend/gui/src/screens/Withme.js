@@ -62,6 +62,31 @@ function Withme() {
             <h3> Testimonials: </h3>
           </Col>
         </Row>
+        <br/>
+        <Row>
+          <Col>
+            <h6> I want to thank you, you're giving me a motivation to practice even harder than before.</h6>
+          </Col>
+        </Row>
+        <br/>
+        <Row>
+          <Col>
+            <h6> I admire the consistency, I also liked what you had to say about why you play.  </h6>
+          </Col>
+        </Row>
+        <br/>
+        <Row>
+          <Col>
+            <h6> Dear friend, you are very good and you play with great passion. I congratulate you. </h6>
+          </Col>
+        </Row>
+        <br />
+        <Row>
+          <Col>
+            <h6> You come from a musical classical background, and you kind of follow the rules according to that, but also you follow an own path and you document it all. Its pretty unique. And you have that kind of never ceasing flame, which only you seem to feel it burns for or in what direction.  </h6>
+          </Col>
+        </Row>
+
         <br />
         <br />
       </Container>
