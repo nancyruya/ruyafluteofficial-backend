@@ -12,7 +12,12 @@ const Footerbar = () => {
           bgColor="black"
         />
         <SocialIcon
-          url="https://github.com/nancyruya"
+          url="https://www.facebook.com/RuyaFlute"
+          style={{ height: 50, width: 50 }}
+          bgColor="black"
+        />
+        <SocialIcon
+          url="https://twitter.com/ruya_ruyaflute"
           style={{ height: 50, width: 50 }}
           bgColor="black"
         />
@@ -22,7 +27,12 @@ const Footerbar = () => {
           bgColor="black"
         />
         <SocialIcon
-          url="mailto: juliac1741@gmail.com"
+          url="https://github.com/nancyruya"
+          style={{ height: 50, width: 50 }}
+          bgColor="black"
+        />
+        <SocialIcon
+          url="https://www.patreon.com/ruyaflute"
           style={{ height: 50, width: 50 }}
           bgColor="black"
         />
