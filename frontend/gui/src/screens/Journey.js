@@ -9,11 +9,6 @@ function Journey() {
   return (
     <Fragment>
       <Navigationbar />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <img
             className="d-block w-100"
             src={require("../dream.JPG")}
