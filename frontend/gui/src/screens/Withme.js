@@ -46,7 +46,7 @@ function Withme() {
               <a href="mailto: juliac1741@gmail.com">
                 <u>Contact me</u>
               </a>{" "}
-              by clicking the email icon below if you’d like to discuss a
+              by email if you’d like to discuss a
               collaboration!
             </p>
           </Col>
